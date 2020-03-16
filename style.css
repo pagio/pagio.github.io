@@ -1,0 +1,152 @@
+/* My Style Sheet */
+html, body, h1, h2, h3, h4, h5, h6, p, border{
+    margin:0;
+    padding:0;
+}
+html{
+    background-color:#ffffff;
+}
+body{
+    height:100%;
+    width:1100px;
+    margin:auto;
+    font-family:Arial, sans-serif;
+    font-size:16px;
+    color:#000000;
+    line-height:26px;
+    background-color:#ffffff;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family:georgia, garamond, "times new roman", times, serif;
+    color:#2F4F4F;
+    font-weight: 600;
+    font-family:Arial, sans-serif;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+h1{
+    font-size: 36px;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+h2{
+    font-size:22px;
+    padding-bottom:5px;
+    padding-top:1px;
+}
+h3{
+    font-size:20px;
+    padding-bottom:2px;
+    padding-top:1px;
+}
+h4{
+    font-size:12px;
+}
+h5{
+    font-size:10px;
+}
+h6{
+    font-size:8px;
+}
+
+/* Links */
+a:link, a:visited {
+    color:#006699;
+    text-decoration:none;
+}
+a:active, a:hover{
+    color:#006699;
+    text-decoration:none;
+}
+
+/* Images */
+a img{
+    border:0;
+}	
+
+/* Navigation */
+#nav{
+    height:25px;
+    color:#ffffff;
+    text-align:right;
+    background-color:#2F4F4F;
+    padding-top:1px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+#nav ul{
+    list-style-type:none;
+    font-size:14px;
+    margin-top: 5px;
+}
+#nav li {
+    display:inline;
+    padding-right:26px;
+}
+#nav a:link, #nav a:visited {
+    color:#ffffff;
+    text-decoration:none;
+}
+#nav a:active, #nav a:hover {
+    color:#2F4F4F;
+    text-decoration: none;
+}
+
+/* Content */
+#content{
+    padding-left:20px;
+    padding-right:20px;
+}
+#content p{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+/* Footer */
+#footer{
+    height:30px;
+    font-size:10px;
+    color:#ffffff;
+    text-align: left;
+    background-color:#2F4F4F;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top:40px;
+}
+#footer a:link, #footer a:visited {
+    color:#ffffff;
+    text-decoration:underline;
+}
+#footer a:active, #footer a:hover{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+/* Common Classes */
+.floatLeft{
+    float:left;
+}
+.floatRight{
+    float:right;
+}
+.textLeft{
+    text-align:left;
+}
+.textRight{
+    text-align:right;
+}
+.textCenter{
+    text-align:center;
+}
+.bold{
+    font-weight:bold;
+}
+.italic{
+    font-style:italic;
+}
