@@ -12,7 +12,7 @@ body{
     margin:auto;
     font-family:Arial, sans-serif;
     font-size:18px;
-    color:#000000;
+    color:#111111;
     line-height:26px;
     background-color:#ffffff;
 }
@@ -38,18 +38,19 @@ h1{
     font-size: 36px;
     padding-bottom:20px;
     padding-top:20px;
+    color:#2E8B57;
 }
 h2{
     font-size:22px;
     padding-bottom:5px;
     padding-top:1px;
-    color:#3F5F5F;
+    color:#2F4F4F;
 }
 h3{
     font-size:20px;
     padding-bottom:2px;
     padding-top:1px;
-    color:#274040;
+    color:#4F7872;
 }
 h4{
     font-size:12px;
@@ -62,12 +63,8 @@ h6{
 }
 
 /* Links */
-a:link, a:visited {
-    color:#006699;
-    text-decoration:none;
-}
-a:active, a:hover{
-    color:#006699;
+a {
+    color:#2CA07A; 
     text-decoration:none;
 }
 
