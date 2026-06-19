@@ -4,7 +4,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, border{
     padding:0;
 }
 html{
-    background-color:#ffffff;
+    background-color:#0f1412;
 }
 body{
     height:100%;
@@ -12,9 +12,9 @@ body{
     margin:auto;
     font-family:Arial, sans-serif;
     font-size:18px;
-    color:#111111;
+    color:#d7ded9;
     line-height:26px;
-    background-color:#ffffff;
+    background-color:#0f1412;
 }
 
 ul {
@@ -28,7 +28,7 @@ li {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
     font-family:georgia, garamond, "times new roman", times, serif;
-    color:#2F4F4F;
+    color:#9fc7b7;
     font-weight: 600;
     font-family:Arial, sans-serif;
     padding-top:1px;
@@ -38,19 +38,19 @@ h1{
     font-size: 36px;
     padding-bottom:20px;
     padding-top:20px;
-    color:#2E8B57;
+    color:#7ee0ad;
 }
 h2{
     font-size:22px;
     padding-bottom:5px;
     padding-top:1px;
-    color:#2F4F4F;
+    color:#a8cbbd;
 }
 h3{
     font-size:20px;
     padding-bottom:2px;
     padding-top:1px;
-    color:#4F7872;
+    color:#8fb8aa;
 }
 h4{
     font-size:12px;
@@ -64,8 +64,12 @@ h6{
 
 /* Links */
 a {
-    color:#2CA07A; 
+    color:#67d5a3; 
     text-decoration:none;
+}
+a:hover {
+    color:#9ee9c2;
+    text-decoration:underline;
 }
 
 /* Images */
@@ -76,9 +80,9 @@ a img{
 /* Navigation */
 #nav{
     height:25px;
-    color:#ffffff;
+    color:#f0f5f2;
     text-align:right;
-    background-color:#2F4F4F;
+    background-color:#18241f;
     padding-top:1px;
     padding-bottom: 10px;
     padding-left:20px;
@@ -96,11 +100,11 @@ a img{
     padding-right:26px;
 }
 #nav a:link, #nav a:visited {
-    color:#ffffff;
+    color:#f0f5f2;
     text-decoration:none;
 }
 #nav a:active, #nav a:hover {
-    color:#2F4F4F;
+    color:#9ee9c2;
     text-decoration: none;
 }
 
@@ -118,20 +122,20 @@ a img{
 #footer{
     height:30px;
     font-size:10px;
-    color:#ffffff;
+    color:#f0f5f2;
     text-align: left;
-    background-color:#2F4F4F;
+    background-color:#18241f;
     padding-top:10px;
     padding-left:20px;
     padding-right:20px;
     margin-top:40px;
 }
 #footer a:link, #footer a:visited {
-    color:#ffffff;
+    color:#f0f5f2;
     text-decoration:underline;
 }
 #footer a:active, #footer a:hover{
-    color:#ffffff;
+    color:#9ee9c2;
     text-decoration:none;
 }
 
